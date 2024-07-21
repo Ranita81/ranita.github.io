@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranita's PTE Classes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 1em;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #4CAF50;
+            color: white;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        form input, form textarea {
+            margin-bottom: 1em;
+            padding: 0.5em;
+        }
+        form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ranita's PTE Classes</h1>
+    </header>
+    <nav>
+        <a href="#course-details">Course Details</a>
+        <a href="#blog">Blog</a>
+        <a href="#register">Register</a>
+    </nav>
+    <main>
+        <section id="course-details" class="section">
+            <h2>Course Details</h2>
+            <p>I have cracked PTE with a score of 86 and would now like to share my knowledge with the world.</p>
+        </section>
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <article>
+                <h3>Welcome to My PTE Blog</h3>
+                <p>Stay tuned for tips, tricks, and updates on how to excel in your PTE exams.</p>
+            </article>
+        </section>
+        <section id="register" class="section">
+            <h2>Register</h2>
+            <form action="https://example.com/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <input type="submit" value="Register">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ranita's PTE Classes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
